@@ -91,7 +91,7 @@ header{
 		& ul{
 			margin-top: 26px;
 			& li{
-				background-color: blue;
+				background-color: #2B2A2C;
 				width: 40px;
 				height: 40px;
 				padding: 8px 0 0 0;
@@ -110,7 +110,7 @@ header{
 			margin-right: 15px;
 		}
 		& a:first-child{
-			background-color: black;
+			background-color: #2B2A2C;
 			color: white;
 			padding: 16px 45px 12px 45px;
 			border-radius: 50px;
@@ -184,5 +184,39 @@ header{
 		font-size: 12px;
 		border: 2px solid black;
 		border-radius: 30px;
+	}
+}
+footer {
+	margin-top: 150px;
+	background-color: #2B2A2C;
+	& span{
+		color: #8D8D8E;
+		font-size: 12px;
+	}
+	& .icons{
+		margin-top: 20px;
+		& a{
+			& i{
+				font-size: 20px;
+				color: #8D8D8E;
+			}
+		}
+	}
+	& .nav{
+		margin-top: 20px;
+		& ul{
+			margin-left: auto;
+			& li a{
+				font-size: 10px;
+				color: #8D8D8E;
+			}
+			& li:last-child{
+					border: 1px solid #8D8D8E;
+					border-radius: 50px;
+					& a{
+						font-size: 12px;
+					}
+				}
+		}
 	}
 }
